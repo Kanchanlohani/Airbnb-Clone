@@ -1,0 +1,35 @@
+airbnb-clone/
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   └── listingController.js
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   ├── models/
+│   │   ├── User.js
+│   │   └── Listing.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   └── listings.js
+│   ├── index.js
+│   ├── .env
+│   └── package.json
+│
+└── frontend/
+    ├── src/
+    │   ├── components/
+    │   │   ├── Navbar.jsx
+    │   │   └── ListingCard.jsx
+    │   ├── pages/
+    │   │   ├── Home.jsx
+    │   │   ├── Login.jsx
+    │   │   ├── Register.jsx
+    │   │   └── CreateListing.jsx
+    │   ├── context/
+    │   │   └── AuthContext.jsx
+    │   ├── App.jsx
+    │   ├── main.jsx
+    │   └── index.css
+    └── package.json
